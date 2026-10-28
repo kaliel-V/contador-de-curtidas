@@ -1,0 +1,107 @@
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f2f5;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c1e21;
+}
+
+/* Cartão do post */
+.post {
+    width: 100%;
+    max-width: 320px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-topo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e4e6eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.avatar img{
+    height: 100%;
+}
+
+.hora {
+    margin: 2px 0 0;
+    font-size: 12px;
+    color: #65676b;
+}
+
+.post-imagem {
+    margin: 14px 0;
+    height: 180px;
+    border-radius: 8px;
+    background: #ffe066;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+.post-texto {
+    margin: 0 0 14px;
+}
+
+/* Botões */
+.acoes {
+    display: flex;
+    gap: 8px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.botao-curtir {
+    flex: 1;
+    background: #ffe3e3;
+    color: #c92a2a;
+    font-weight: bold;
+}
+
+.botao-curtir:hover {
+    background: #ffc9c9;
+}
+
+.botao-zerar {
+    background: #e4e6eb;
+}
+
+.contagem {
+    margin: 14px 0 4px;
+    font-weight: bold;
+}
+
+/* Mensagem que aparece quando o post viraliza */
+.mensagem {
+    margin: 0;
+    color: #c92a2a;
+    font-weight: bold;
+}
